@@ -1,0 +1,397 @@
+{
+  "profile": {
+    "title": "Front-End Developer",
+    "experience": "Hơn 4.5 năm kinh nghiệm front-end",
+    "summary": [
+      "Front-End Developer với hơn 4.5 năm kinh nghiệm front-end. Tập trung xây dựng các web application responsive, dễ bảo trì và mang lại trải nghiệm người dùng chất lượng cao. Có kinh nghiệm viết code clean, dễ mở rộng theo kiến trúc component-based và các best practice. Tôi dùng AI agent để tự động hoá quy trình phát triển: agent sinh code tuân theo coding convention của team và viết end-to-end test để kiểm chứng từng tính năng.",
+      "Tôi là một developer thích làm việc nhóm, nơi ý tưởng được chia sẻ và feedback được trân trọng. Mục tiêu của tôi không chỉ là xây dựng tính năng, mà còn đóng góp chu đáo vào trải nghiệm sản phẩm và thành công chung của team, với niềm đam mê giúp mọi người làm thế giới tốt đẹp hơn thông qua phần mềm chất lượng."
+    ]
+  },
+  "skillGroups": {
+    "react": {
+      "name": "React JS",
+      "description": "React 18, kiến trúc component-driven & feature-module"
+    },
+    "reactRouter": {
+      "name": "React Router",
+      "description": "React Router v6, route lồng nhau và lazy-load, loader, route guard"
+    },
+    "stateData": {
+      "name": "State & tầng dữ liệu",
+      "description": "TanStack Query v5, Zustand, Redux Toolkit, REST API"
+    },
+    "forms": {
+      "name": "Form & Validation",
+      "description": "React Hook Form + Zod"
+    },
+    "build": {
+      "name": "Build & hiệu năng",
+      "description": "Vite 6, code splitting theo route, manual chunking, phân tích bundle, lazy-load i18n"
+    },
+    "i18n": {
+      "name": "Đa ngôn ngữ (i18n)",
+      "description": "i18next / react-i18next"
+    },
+    "aiWorkflow": {
+      "name": "Phát triển với AI",
+      "description": "AI agent (Claude Code) sinh code đúng coding convention và end-to-end test"
+    },
+    "angular": {
+      "name": "Angular",
+      "description": "Angular 18–20, Angular CLI, reactive forms, Angular CDK"
+    },
+    "angularSignals": {
+      "name": "Angular Signals",
+      "description": "signal, computed, effect, signal inputs"
+    },
+    "changeDetection": {
+      "name": "Change Detection",
+      "description": "Chiến lược OnPush, input bất biến, markForCheck, change detection zoneless với signals"
+    },
+    "rxjs": {
+      "name": "RxJS",
+      "description": "Observables, operators, Subjects, async pipe"
+    },
+    "controlValueAccessor": {
+      "name": "ControlValueAccessor",
+      "description": "Custom form control tích hợp với reactive forms"
+    },
+    "angularUi": {
+      "name": "Angular UI",
+      "description": "Angular Material, PrimeNG, Ant Design, Angular Fire, Tailwind CSS v4, SCSS / SASS"
+    }
+  },
+  "projects": {
+    "grainSupplyChain": {
+      "name": "Nền tảng quản lý chuỗi cung ứng ngũ cốc",
+      "region": "Úc",
+      "role": "Developer",
+      "period": "04/2026 – Hiện tại",
+      "teamSize": "5 thành viên — 1 BA, 1 QA, 1 Back-end, 1 Mobile Dev, 1 Front-end",
+      "description": "Nền tảng quản lý chuỗi cung ứng ngũ cốc cho các công ty xay xát bột mì. Bao phủ toàn bộ chuỗi: hợp đồng mua hàng với nhà cung cấp, vận hành trạm cân xe nhập/xuất, lưu trữ silo & bin có kiểm soát xông khử trùng, kiểm định chất lượng ngũ cốc, sản xuất xay xát, phối trộn thành phẩm, phiếu ủ và phiếu chuyển kho, quản lý vận tải và thanh toán subscription đa tenant.",
+      "responsibilities": [
+        "Thiết kế và xây dựng front-end từ đầu, phát triển các module nghiệp vụ.",
+        "Xây dựng design system nội bộ trên Radix UI + Tailwind CSS v4 + CVA (Button, DataTable, compound Table, form fields, dialogs).",
+        "Đa ngôn ngữ hoá toàn bộ ứng dụng sang 7 ngôn ngữ (EN/DE/ES/FR/IT/PL/PT) với locale bundle được lazy-load.",
+        "Thiết lập quy trình AI agent sinh code theo coding convention của dự án và viết end-to-end test cho từng user story.",
+        "Làm rõ user story và acceptance criteria với BA; quản lý ticket trên ClickUp."
+      ]
+    },
+    "inventoryAdminPortal": {
+      "name": "Hệ thống quản lý kho dành cho quản trị viên – Admin Portal",
+      "region": "Hàn Quốc",
+      "role": "Developer",
+      "period": "11/2025 – 06/2026",
+      "teamSize": "4 thành viên — 1 AI Developer, 1 BA, 1 Back-end Developer, 1 Front-end Developer",
+      "description": "Web portal nội bộ giúp quản trị viên quản lý kho dụng cụ kỹ thuật: đăng ký dụng cụ và xe đẩy, import hàng loạt danh mục dụng cụ từ Excel, tạo mã QR cho kỹ thuật viên dùng tại xưởng và xem báo cáo tổng hợp mượn/trả.",
+      "responsibilities": [
+        "Xây dựng các module nghiệp vụ từ thiết kế và yêu cầu.",
+        "Tích hợp RESTful API với cơ chế xử lý token và lỗi tập trung.",
+        "Phát triển UI song ngữ (Anh / Trung)."
+      ]
+    },
+    "toolUserPortal": {
+      "name": "Hệ thống quản lý dụng cụ dành cho kỹ thuật viên – User Portal",
+      "region": "Hàn Quốc",
+      "role": "Developer",
+      "period": "12/2025 – 07/2026",
+      "teamSize": "4 thành viên — 1 AI Developer, 1 BA, 1 Back-end Developer, 1 Front-end Developer",
+      "description": "Portal mobile-first giúp kỹ thuật viên mượn và trả dụng cụ kỹ thuật. Kỹ thuật viên quét mã QR của xe đẩy, chụp ảnh từng ngăn bằng camera của thiết bị, và dịch vụ AI detection xác định dụng cụ nào còn hay thiếu, cho phép báo cáo ngay các dụng cụ thiếu/hỏng.",
+      "responsibilities": [
+        "Xây dựng các module nghiệp vụ từ thiết kế và yêu cầu.",
+        "Phát triển UI responsive song ngữ (Anh / Trung).",
+        "Triển khai luồng chụp ảnh bằng camera và quét QR ngay trên trình duyệt."
+      ]
+    },
+    "hotelOrderTracking": {
+      "name": "Nền tảng theo dõi đơn hàng khách sạn",
+      "region": "Mỹ",
+      "role": "Developer",
+      "period": "06/2025 – 11/2025",
+      "teamSize": "10 thành viên",
+      "description": "Ứng dụng B2C đi kèm giúp du khách theo dõi vị trí và trạng thái các lô hành lý được tạo từ nền tảng quản lý đơn hàng của khách sạn.",
+      "responsibilities": [
+        "Xây dựng các module theo dõi lô hàng để du khách nắm được trạng thái và vị trí hành lý.",
+        "Xây dựng custom form controls với CVA cho tầng reactive form.",
+        "Triển khai layout responsive, mobile-first."
+      ]
+    },
+    "hotelOrderManagement": {
+      "name": "Nền tảng quản lý đơn hàng khách sạn",
+      "region": "Mỹ",
+      "role": "Developer",
+      "period": "06/2025 – 11/2025",
+      "teamSize": "10 thành viên",
+      "description": "Nền tảng web B2B nơi nhân viên khách sạn tạo đơn vận chuyển hành lý cho khách, in nhãn và theo dõi giao hàng.",
+      "responsibilities": [
+        "Xây dựng các module quản lý booking để nhân viên khách sạn tạo, xem và theo dõi đơn vận chuyển hành lý cho khách.",
+        "Xây dựng module thông báo để nhân viên nhận cập nhật realtime khi trạng thái lô hàng thay đổi.",
+        "Tích hợp REST API cho booking, cài đặt và thông báo.",
+        "Tích hợp Google Maps để chọn và kiểm tra địa chỉ lấy hàng và giao hàng.",
+        "Xây dựng module cài đặt khách sạn để quản lý hồ sơ và địa chỉ của khách sạn."
+      ]
+    },
+    "aiBusinessPlanning": {
+      "name": "Lập kế hoạch kinh doanh bằng AI",
+      "region": "Đức",
+      "role": "Developer",
+      "period": "04/2025 – 07/2025",
+      "teamSize": "2 Front-end",
+      "description": "Công cụ lập kế hoạch kinh doanh ứng dụng AI, tạo kế hoạch kinh doanh tuỳ chỉnh từ câu trả lời của người dùng cho một bộ câu hỏi đánh giá.",
+      "responsibilities": [
+        "Xây dựng bảng câu hỏi đánh giá nhiều bước và các màn hình kế hoạch kinh doanh được tạo ra.",
+        "Tích hợp API sinh nội dung bằng AI, xử lý các request chạy lâu với trạng thái loading và lỗi."
+      ]
+    },
+    "tacApplication": {
+      "name": "TAC Application",
+      "region": "Đan Mạch",
+      "role": "Developer",
+      "period": "01/2025 – 04/2025",
+      "teamSize": "",
+      "description": "Ứng dụng giáo dục giúp học sinh tiếp cận AI: giáo viên hướng dẫn học sinh nhập prompt, sau đó AI tự động tạo văn bản, hình ảnh và video.",
+      "responsibilities": [
+        "Phát triển tính năng theo thiết kế và yêu cầu, cải thiện chức năng và trải nghiệm người dùng.",
+        "Xây dựng component dùng chung cho nhiều tính năng, giúp code dễ mở rộng và bảo trì.",
+        "Phát hiện và sửa lỗi trong quá trình phát triển."
+      ]
+    },
+    "posOfSales": {
+      "name": "POS of Sales",
+      "region": "Đức",
+      "role": "Developer",
+      "period": "07/2024 – 01/2025",
+      "teamSize": "3 Back-end, 3 Front-end",
+      "description": "Nền tảng quản lý bán lẻ để vận hành nhiều cửa hàng, bao gồm danh mục và template sản phẩm, nguyên vật liệu, nhà cung cấp, khách hàng, vận hành cửa hàng và quản trị người dùng.",
+      "responsibilities": [
+        "Xây dựng các module danh mục sản phẩm, nguyên vật liệu, nhà cung cấp, khách hàng và quản lý cửa hàng.",
+        "Triển khai quản trị người dùng, nhóm và quyền truy cập, điều khiển việc hiển thị tính năng trong toàn ứng dụng."
+      ]
+    },
+    "insuranceWealth": {
+      "name": "Nền tảng Insurance Wealth",
+      "region": "Đức",
+      "role": "Developer",
+      "period": "11/2023 – 03/2024",
+      "teamSize": "3 Front-end",
+      "description": "Nền tảng bảo hiểm giúp nâng cao năng lực tài chính của người dùng thông qua các buổi tư vấn với chuyên gia, đưa ra lời khuyên cá nhân hoá dựa trên đánh giá tài chính riêng.",
+      "responsibilities": [
+        "Xây dựng các module đánh giá tài chính và phiên tư vấn.",
+        "Kết nối và tương tác với RESTful API để lấy và gửi dữ liệu."
+      ]
+    },
+    "studentVeteransOfAmerica": {
+      "name": "Student Veterans of America",
+      "region": "Mỹ",
+      "role": "Developer",
+      "period": "08/2023 – 12/2023",
+      "teamSize": "6 thành viên",
+      "description": "Nền tảng gợi ý định hướng nghề nghiệp cho sinh viên dựa trên kết quả bài quiz.",
+      "responsibilities": [
+        "Xây dựng giao diện dạng ứng dụng web responsive.",
+        "Tối ưu hiệu năng.",
+        "Bảo trì ứng dụng và sửa lỗi.",
+        "Phối hợp chặt chẽ với developer, designer và project manager để đạt mục tiêu dự án."
+      ]
+    },
+    "financePlatform": {
+      "name": "Nền tảng tài chính",
+      "region": "Nhật Bản",
+      "role": "Developer",
+      "period": "01/2023 – 07/2023",
+      "teamSize": "26 thành viên",
+      "description": "Hệ thống cho vay giúp khách hàng đăng ký và quản lý khoản vay để khởi nghiệp.",
+      "responsibilities": [
+        "Xây dựng màn hình đăng ký khoản vay và theo dõi trạng thái từ thiết kế Adobe XD.",
+        "Thực hiện kiểm thử chức năng, khả năng sử dụng và giao diện trên nhiều thiết bị và trình duyệt.",
+        "Phối hợp với developer, designer và project manager trong team 26 người."
+      ]
+    },
+    "cryptocurrencyPlatform": {
+      "name": "Nền tảng tiền mã hoá",
+      "region": "Thổ Nhĩ Kỳ",
+      "role": "Developer",
+      "period": "07/2022 – 12/2022",
+      "teamSize": "20 thành viên",
+      "description": "Sàn giao dịch tiền mã hoá cung cấp giao dịch, dữ liệu thị trường, quản lý ví và tài khoản cho nhà giao dịch cá nhân.",
+      "responsibilities": [
+        "Xây dựng các màn hình giao dịch, dữ liệu thị trường và quản lý tài khoản.",
+        "Quản lý global state bằng Redux Toolkit cho các module giao dịch và ví."
+      ]
+    },
+    "xWallet": {
+      "name": "X-Wallet",
+      "region": "Thổ Nhĩ Kỳ",
+      "role": "Back-End Developer",
+      "period": "04/2022 – 10/2022",
+      "teamSize": "4 thành viên",
+      "description": "Hệ thống quản lý ví tiền mã hoá tích hợp với sàn Ultorex, xử lý tạo ví, sinh địa chỉ, nạp và rút trên nhiều blockchain.",
+      "responsibilities": [
+        "Phát triển wallet API — nạp, rút, tạo ví và địa chỉ — trên 7 blockchain (ETH, BTC, BSC, Polygon, Doge, Terra, Chiliz).",
+        "Tích hợp blockchain node qua Web3 để gửi và theo dõi giao dịch on-chain.",
+        "Thiết kế model và lưu trữ dữ liệu ví, địa chỉ và giao dịch với TypeORM.",
+        "Bảo trì và mở rộng các chức năng ví hiện có."
+      ]
+    },
+    "xWalletAdmin": {
+      "name": "X-Wallet Admin",
+      "region": "Thổ Nhĩ Kỳ",
+      "role": "Developer",
+      "period": "09/2021 – 11/2022",
+      "teamSize": "1 thành viên (làm một mình)",
+      "description": "Trang web cho phép người dùng sàn Ultorex quản lý tài sản coin, xây dựng dựa trên UI và tính năng của BitGo làm tham chiếu.",
+      "responsibilities": [
+        "Một mình xây dựng toàn bộ ứng dụng, từ khởi tạo dự án đến bàn giao, dùng BitGo làm tham chiếu UI.",
+        "Tích hợp X-Wallet API cho số dư, nạp, rút và quản lý địa chỉ.",
+        "Kết nối RESTful API để lấy và gửi dữ liệu. Phát hiện và xử lý lỗi để cải thiện hiệu năng và độ ổn định."
+      ]
+    }
+  },
+  "codingSkills": {
+    "formHandling": {
+      "title": "Xử lý form",
+      "summary": "React Hook Form với Zod schema factory, các field controlled tái sử dụng và lỗi từ server được map ngược về đúng input.",
+      "highlights": [
+        "Schema factory nhận t(), nên thông báo validation đổi theo ngôn ngữ đang dùng.",
+        "Các field như InputField bọc useController, nên màn hình không dùng Controller trực tiếp.",
+        "Hook useFormField gắn label id, aria-invalid và aria-describedby.",
+        "Validate ở lần submit đầu, sau đó theo onChange, nên không làm phiền khi đang gõ.",
+        "Hook mutation invalidate query danh sách khi thành công.",
+        "Lỗi field từ API được gắn lại vào đúng input bằng applyServerFieldErrors."
+      ],
+      "steps": [
+        "Form",
+        "Validation schema",
+        "Field tái sử dụng",
+        "Binding field và a11y",
+        "Mutation khi submit",
+        "Lỗi server về từng field"
+      ]
+    },
+    "projectStructure": {
+      "title": "Cấu trúc dự án & quy tắc kiến trúc",
+      "summary": "Cấu trúc phân tầng theo feature, quy tắc import được ESLint kiểm soát chứ không chỉ dựa vào quy ước.",
+      "highlights": [
+        "Năm tầng: router → modules → shared → core → _widgets. Import chỉ đi xuống.",
+        "eslint-plugin-boundaries làm build fail khi một tầng import ngược lên.",
+        "Rule ESLint tự viết giữ cây thư mục giống cây render của React.",
+        "Lint bắt buộc hậu tố vai trò như -section, -card và -dialog.",
+        "Không barrel file, không thư mục API trong module, spec nằm trong src/test.",
+        "Form field bọc useController của React Hook Form, import qua @ui/form.",
+        "CI chạy format, kiểm tra contract, typecheck, lint, test, build và bundle budget."
+      ],
+      "steps": ["Cấu trúc thư mục"]
+    },
+    "dataLayer": {
+      "title": "Data layer: API → service → query → converter",
+      "summary": "Luồng dữ liệu một chiều, mỗi bước một nhiệm vụ: HTTP call có type, mapping nghiệp vụ, cache key và view model.",
+      "highlights": [
+        "core/apis chỉ chứa một lời gọi Axios có kiểu cho mỗi endpoint.",
+        "Service bóc response và chuyển tham số UI sang định dạng API.",
+        "Factory queryOptions giữ cache key; mutation chỉ cần invalidate một root key.",
+        "Converter chạy trong select: cache giữ DTO, mỗi màn hình tự tạo view model.",
+        "Abort signal được truyền tới Axios, nên rời màn hình là huỷ request."
+      ],
+      "steps": ["Page", "Query factory", "Service", "API call có type", "Converter sang view model"]
+    },
+    "globalTypes": {
+      "title": "Type tiện ích toàn cục",
+      "summary": "Một file ambient globals.type.d.ts khai báo các type hỗ trợ mà mọi file đều dùng, không cần import.",
+      "highlights": [
+        "tsconfig include globals.type.d.ts, nên các type dùng được ở mọi nơi mà không cần import.",
+        "File không có import hay export, nên luôn là global script.",
+        "Nullable<T> cho field API trả về null, ví dụ avatarUrl.",
+        "Maybe<T> cho giá trị tuỳ chọn, Nillable<T> khi có thể null hoặc undefined.",
+        "ID nhận key kiểu string hoặc number, nên cùng một DTO dùng được với mọi backend.",
+        "ValueOption là kiểu option chung cho select, combobox, radio và multi-select."
+      ],
+      "steps": ["Các type toàn cục", "DTO ví dụ"]
+    },
+    "routing": {
+      "title": "Routing, lazy page & prefetch loader",
+      "summary": "Data router với một file route cho mỗi module, page được lazy-load và loader prefetch query đầu tiên song song với code của trang.",
+      "highlights": [
+        "Mỗi trang là named export lazy, nên mỗi module là một chunk riêng.",
+        "Loader kiểm tra quyền rồi prefetch đúng query options mà trang dùng.",
+        "Loader không chặn điều hướng, không throw; query của trang lo loading và lỗi.",
+        "Breadcrumb khai báo trên route bằng translation key có kiểu."
+      ],
+      "steps": [
+        "Route tree",
+        "File route của module",
+        "Lazy page",
+        "Loader của module",
+        "Factory tạo prefetch loader"
+      ]
+    },
+    "designSystem": {
+      "title": "Design system trên shadcn/ui + CVA",
+      "summary": "Primitive được port từ shadcn/ui vào dự án, mỗi phần một file, chỉ style bằng design token và variant có type.",
+      "highlights": [
+        "Variant CVA có kiểu và được export thành constant, không truyền chuỗi thô.",
+        "Class chỉ dùng design token (bg-primary, h-button), không bao giờ dùng màu hay kích thước thô.",
+        "Phong cách React 19: ref là prop, không forwardRef, React Compiler lo memo.",
+        "Giữ accessibility của Radix: focus ring, thuộc tính aria và label cho screen reader."
+      ],
+      "steps": ["Component", "CVA variants", "Variant constants", "Compound part"]
+    },
+    "designTokens": {
+      "title": "Design token & theming bằng CSS",
+      "summary": "Mọi màu, kích thước và shadow là một token có tên, khai báo một lần trong CSS. Component chỉ dùng tên token, nên đổi brand hay dark mode là đổi giá trị, không phải sửa component.",
+      "highlights": [
+        "Component không bao giờ dùng giá trị thô như #5a7d36 hay bg-green-700, mà dùng vai trò: bg-primary, text-muted-foreground, border-error-border.",
+        "Mỗi token có một giá trị trong :root và một trong .dark. Dark mode chỉ đổi giá trị, nên component không cần class dark:.",
+        "@theme inline biến mỗi CSS variable thành class Tailwind (bg-*, text-*, border-*), có autocomplete và opacity modifier như bg-primary/90.",
+        "Màu trạng thái đi theo bộ ba (nền, chữ, viền), nên mọi badge và alert đều đồng nhất.",
+        "Kích thước từ design cũng là token: h-input, h-button, rounded-card, shadow-card. Thang radius được tính từ một biến --radius.",
+        "Base style và utility tuỳ chỉnh (scrollbar-thin) nằm cùng file, nên toàn bộ ngôn ngữ hình ảnh ở một chỗ."
+      ],
+      "steps": [
+        "Giá trị token cho light và dark",
+        "Token thành class Tailwind",
+        "Base style và utility",
+        "Dùng token trong component"
+      ]
+    }
+  },
+  "tree": {
+    "src": "Import chỉ đi một chiều xuống qua các tầng này",
+    "widgets": "Design system: primitive shadcn/ui do dự án sở hữu",
+    "widgetsUi": "Mỗi primitive một thư mục, mỗi phần một file",
+    "cvaVariants": "CVA variants",
+    "variantConstants": "Tên variant dạng constant",
+    "formFields": "Các field bọc useController của React Hook Form, import qua @ui/form",
+    "cn": "cn() để gộp class",
+    "uiEntrypoint": "Entrypoint của @ui",
+    "core": "Hạ tầng dùng chung toàn app, không bao giờ import feature",
+    "apis": "Mỗi endpoint một Axios call có type",
+    "contract": "Zod schema sinh từ OpenAPI của backend",
+    "interceptor": "Refresh token, response contract, map lỗi",
+    "guards": "ProtectedRoute, GuestRoute, PermissionRoute",
+    "constants": "Permission, role, route path và quyền truy cập",
+    "store": "Zustand: token và trạng thái phiên",
+    "types": "DTO suy ra từ contract",
+    "shared": "Component hiển thị, layout và hook",
+    "modules": "Mỗi feature một thư mục",
+    "userManagement": "Cây thư mục trùng với React render tree",
+    "page": "Page, nằm một mình ở gốc module",
+    "renderedByToolbar": "Được render bởi toolbar",
+    "tableBody": "Row và badge lồng bên trong",
+    "dialogsHost": "Chứa mọi dialog của page",
+    "theForm": "Form",
+    "converters": "DTO sang view model, giá trị form sang payload",
+    "mutations": "Mutation",
+    "queries": "Factory queryOptions và cache key",
+    "schema": "Schema cho form và URL search",
+    "services": "Các bước nghiệp vụ trên core/apis",
+    "router": "Route tree ghép từ một file cho mỗi module",
+    "routes": "Route có guard, lazy-load cho mỗi module",
+    "loaders": "Prefetch loader",
+    "locale": "JSON en / vi cho mỗi namespace",
+    "test": "Spec mirror theo cây source",
+    "inputField": "Input gắn vào form bằng useController",
+    "multiSelectField": "Multi-select gắn vào form bằng useController",
+    "formFieldShell": "Label, mô tả và thông báo lỗi bao quanh mỗi field",
+    "useFormField": "Bọc useController: giá trị, trạng thái lỗi và aria id"
+  }
+}

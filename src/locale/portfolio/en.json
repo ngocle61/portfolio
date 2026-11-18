@@ -1,0 +1,38 @@
+{
+  "title": "Portfolio",
+  "description": "Experience, skills and the projects I have delivered.",
+  "skills": {
+    "title": "Technical proficiencies",
+    "description": "The stack I work with every day.",
+    "core": "Core",
+    "tools": "Tools"
+  },
+  "work": {
+    "title": "Work",
+    "description": "The projects I have delivered and the way I write code."
+  },
+  "tabs": {
+    "projects": "Projects",
+    "codingSkills": "AI coding conventions"
+  },
+  "showMore": "Show more",
+  "projects": {
+    "description": "Select a project to see its details.",
+    "more": "+{{count}} more"
+  },
+  "project": {
+    "overview": "Project description",
+    "teamSize": "Team size",
+    "responsibilities": "Responsibilities",
+    "technologies": "Technologies"
+  },
+  "codingSkills": {
+    "description": "Real code from the app you are looking at. Select a topic to read how I build it.",
+    "files": "Source files: {{count}}",
+    "liveDemo": "Live demo"
+  },
+  "codingSkill": {
+    "highlights": "How it works",
+    "steps": "Reading order"
+  }
+}

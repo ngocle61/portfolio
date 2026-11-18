@@ -1,0 +1,38 @@
+{
+  "title": "Hồ sơ năng lực",
+  "description": "Kinh nghiệm, kỹ năng và các dự án đã thực hiện.",
+  "skills": {
+    "title": "Kỹ năng chuyên môn",
+    "description": "Bộ công nghệ sử dụng hằng ngày.",
+    "core": "Cốt lõi",
+    "tools": "Công cụ"
+  },
+  "work": {
+    "title": "Công việc",
+    "description": "Các dự án đã thực hiện và cách tôi viết code."
+  },
+  "tabs": {
+    "projects": "Dự án",
+    "codingSkills": "Quy ước AI coding"
+  },
+  "showMore": "Xem thêm",
+  "projects": {
+    "description": "Chọn một dự án để xem chi tiết.",
+    "more": "+{{count}} khác"
+  },
+  "project": {
+    "overview": "Mô tả dự án",
+    "teamSize": "Quy mô team",
+    "responsibilities": "Trách nhiệm",
+    "technologies": "Công nghệ"
+  },
+  "codingSkills": {
+    "description": "Code thật của chính ứng dụng bạn đang xem. Chọn một chủ đề để xem cách tôi xây dựng.",
+    "files": "Số file nguồn: {{count}}",
+    "liveDemo": "Xem demo"
+  },
+  "codingSkill": {
+    "highlights": "Cách hoạt động",
+    "steps": "Thứ tự đọc"
+  }
+}

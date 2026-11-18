@@ -1,0 +1,19 @@
+{
+  "actions": {
+    "retry": "Try again",
+    "close": "Close"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "queryState": {
+    "errorTitle": "Unable to load data",
+    "errorDescription": "Check your connection and try again."
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "profile": {
+    "title": "Front-End Developer",
+    "experience": "4.5+ years of front-end experience",
+    "summary": [
+      "Front-End Developer with 4.5+ years of front-end experience. Strong focus on building responsive, maintainable web applications and delivering high-quality user experiences. Experienced at writing clean, scalable code following component-based architecture and best practices. I use AI agents to automate delivery: they generate code that follows the team's coding conventions and write end-to-end tests to verify each feature.",
+      "I'm a collaborative developer who enjoys working in team environments where ideas are shared and feedback is valued. My goal is not just to build features, but to contribute thoughtfully to the overall product experience and team success, inspired by a passion for helping people make the world a better place through quality software."
+    ]
+  },
+  "skillGroups": {
+    "react": {
+      "name": "React JS",
+      "description": "React 18, component-driven & feature-module architecture"
+    },
+    "reactRouter": {
+      "name": "React Router",
+      "description": "React Router v6, nested and lazy-loaded routes, loaders, route guards"
+    },
+    "stateData": {
+      "name": "State & Data Layer",
+      "description": "TanStack Query v5, Zustand, Redux Toolkit, REST API"
+    },
+    "forms": {
+      "name": "Forms & Validation",
+      "description": "React Hook Form + Zod"
+    },
+    "build": {
+      "name": "Build & Performance",
+      "description": "Vite 6, route-level code splitting, manual chunking, bundle analysis, lazy-loaded i18n"
+    },
+    "i18n": {
+      "name": "Internationalization",
+      "description": "i18next / react-i18next"
+    },
+    "aiWorkflow": {
+      "name": "AI-assisted Delivery",
+      "description": "AI agents (Claude Code) generating convention-compliant code and end-to-end tests"
+    },
+    "angular": {
+      "name": "Angular",
+      "description": "Angular 18–20, Angular CLI, reactive forms, Angular CDK"
+    },
+    "angularSignals": {
+      "name": "Angular Signals",
+      "description": "signal, computed, effect, signal inputs"
+    },
+    "changeDetection": {
+      "name": "Change Detection",
+      "description": "OnPush strategy, immutable inputs, markForCheck, zoneless change detection with signals"
+    },
+    "rxjs": {
+      "name": "RxJS",
+      "description": "Observables, operators, Subjects, async pipe"
+    },
+    "controlValueAccessor": {
+      "name": "ControlValueAccessor",
+      "description": "Custom form controls that plug into reactive forms"
+    },
+    "angularUi": {
+      "name": "Angular UI",
+      "description": "Angular Material, PrimeNG, Ant Design, Angular Fire, Tailwind CSS v4, SCSS / SASS"
+    }
+  },
+  "projects": {
+    "grainSupplyChain": {
+      "name": "Grain Supply Chain Management Platform",
+      "region": "Australia",
+      "role": "Developer",
+      "period": "04/2026 – Present",
+      "teamSize": "5 members — 1 BA, 1 QA, 1 Back-end, 1 Mobile Dev, 1 Front-end",
+      "description": "A grain supply-chain management platform for flour-milling companies. Covers the full chain: purchase contracts with providers, inbound/outbound weighbridge operations, silo & bin storage with fumigation control, grain quality testing, milling production, finished-product blending, ageing and transfer sheets, freight management, and multi-tenant subscription billing.",
+      "responsibilities": [
+        "Designed and built the front-end from scratch, implemented business modules.",
+        "Built the internal design system on Radix UI + Tailwind CSS v4 + CVA (Button, DataTable, compound Table, form fields, dialogs).",
+        "Internationalized the whole app into 7 languages (EN/DE/ES/FR/IT/PL/PT) with lazy-loaded locale bundles.",
+        "Set up an AI agent workflow that generates code following the project's coding conventions and writes end-to-end tests for each user story.",
+        "Clarified user stories and acceptance criteria with the BA; managed tickets on ClickUp."
+      ]
+    },
+    "inventoryAdminPortal": {
+      "name": "Administrator-facing inventory management system – Admin Portal",
+      "region": "Korea",
+      "role": "Developer",
+      "period": "11/2025 – 06/2026",
+      "teamSize": "4 members — 1 AI Developer, 1 BA, 1 Back-end Developer, 1 Front-end Developer",
+      "description": "An internal web portal for administrators to manage engineering tool inventory: registering tools and trolleys, bulk-importing tool catalogues from Excel, generating QR codes used by technicians on the shop floor, and reviewing borrow/return summary reports.",
+      "responsibilities": [
+        "Built business modules from design and requirements.",
+        "Integrated RESTful APIs with centralized token and error handling.",
+        "Delivered a bilingual (English / Chinese) UI."
+      ]
+    },
+    "toolUserPortal": {
+      "name": "Technician-facing tool management system – User Portal",
+      "region": "Korea",
+      "role": "Developer",
+      "period": "12/2025 – 07/2026",
+      "teamSize": "4 members — 1 AI Developer, 1 BA, 1 Back-end Developer, 1 Front-end Developer",
+      "description": "A mobile-first portal for technicians to borrow and return engineering tools. The technician scans a trolley QR code, captures photos of each drawer with the device camera, and an AI detection service identifies which tools are present or missing, allowing missing/damaged items to be reported instantly.",
+      "responsibilities": [
+        "Built business modules from design and requirements.",
+        "Delivered a bilingual (English / Chinese) responsive UI.",
+        "Implemented in-browser camera capture and QR scanning flows."
+      ]
+    },
+    "hotelOrderTracking": {
+      "name": "Hotel order tracking platform",
+      "region": "United States",
+      "role": "Developer",
+      "period": "06/2025 – 11/2025",
+      "teamSize": "10 members",
+      "description": "A B2C companion app letting travellers track the location and status of luggage shipments created from the Hotels order management platform.",
+      "responsibilities": [
+        "Built the shipment tracking modules for travellers to follow luggage status and location.",
+        "Built custom form controls with CVA for the reactive form layer.",
+        "Implemented a responsive, mobile-first layout."
+      ]
+    },
+    "hotelOrderManagement": {
+      "name": "Hotel order management platform",
+      "region": "United States",
+      "role": "Developer",
+      "period": "06/2025 – 11/2025",
+      "teamSize": "10 members",
+      "description": "A B2B web platform where hotel staff create luggage shipment orders for guests, print labels and track deliveries.",
+      "responsibilities": [
+        "Built the booking management modules so hotel staff can create, view and track luggage shipment orders for guests.",
+        "Built the notification module so staff get live updates when a shipment's status changes.",
+        "Integrated the REST APIs for bookings, settings and notifications.",
+        "Integrated Google Maps for picking and checking pickup and delivery addresses.",
+        "Built the hotel settings module for managing the hotel profile and addresses."
+      ]
+    },
+    "aiBusinessPlanning": {
+      "name": "AI-powered business planning",
+      "region": "Germany",
+      "role": "Developer",
+      "period": "04/2025 – 07/2025",
+      "teamSize": "2 Front-end",
+      "description": "An AI-powered business planning tool that generates customized business plans from users' answers to a set of assessment questions.",
+      "responsibilities": [
+        "Built the multi-step assessment questionnaire and the generated business-plan screens.",
+        "Integrated the AI generation API, handling long-running requests with loading and error states."
+      ]
+    },
+    "tacApplication": {
+      "name": "TAC Application",
+      "region": "Denmark",
+      "role": "Developer",
+      "period": "01/2025 – 04/2025",
+      "teamSize": "",
+      "description": "An education app that helps students approach AI: teachers guide them in writing prompts, then the AI generates text, images and videos.",
+      "responsibilities": [
+        "Implemented features from the design and requirements, improving functionality and user experience.",
+        "Built shared components reused across features, keeping the code scalable and maintainable.",
+        "Identified and fixed bugs during development."
+      ]
+    },
+    "posOfSales": {
+      "name": "POS of Sales",
+      "region": "Germany",
+      "role": "Developer",
+      "period": "07/2024 – 01/2025",
+      "teamSize": "3 Back-end, 3 Front-end",
+      "description": "A retail management platform for overseeing multiple stores, covering product catalogue and templates, materials, suppliers, customers, store operations and user administration.",
+      "responsibilities": [
+        "Built the article catalogue, material, supplier, customer and store management modules.",
+        "Implemented user, group and access-right administration driving feature visibility across the app."
+      ]
+    },
+    "insuranceWealth": {
+      "name": "Insurance Wealth Platform",
+      "region": "Germany",
+      "role": "Developer",
+      "period": "11/2023 – 03/2024",
+      "teamSize": "3 Front-end",
+      "description": "An insurance platform that enhances users' financial capabilities through expert-led sessions, offering personalized advice based on tailored financial assessments.",
+      "responsibilities": [
+        "Built the financial assessment and advisory session modules.",
+        "Connected and interacted with RESTful APIs for data retrieval and submission."
+      ]
+    },
+    "studentVeteransOfAmerica": {
+      "name": "Student Veterans of America",
+      "region": "United States",
+      "role": "Developer",
+      "period": "08/2023 – 12/2023",
+      "teamSize": "6 members",
+      "description": "A platform that suggests career paths to students based on their quiz results.",
+      "responsibilities": [
+        "Implemented the UI as a responsive web application.",
+        "Optimized performance.",
+        "Maintained the application and fixed bugs.",
+        "Worked closely with developers, designers and project managers to meet project goals."
+      ]
+    },
+    "financePlatform": {
+      "name": "Finance Platform",
+      "region": "Japan",
+      "role": "Developer",
+      "period": "01/2023 – 07/2023",
+      "teamSize": "26 members",
+      "description": "A lending system that allows clients to apply for and manage loans to start a business.",
+      "responsibilities": [
+        "Built the loan application and status-tracking screens from Adobe XD designs.",
+        "Conducted functional, usability and visual testing across devices and browsers.",
+        "Coordinated with developers, designers and project managers in a 26-person team."
+      ]
+    },
+    "cryptocurrencyPlatform": {
+      "name": "Cryptocurrencies platforms",
+      "region": "Turkey",
+      "role": "Developer",
+      "period": "07/2022 – 12/2022",
+      "teamSize": "20 members",
+      "description": "A cryptocurrency exchange platform providing trading, market data, wallet and account management for retail traders.",
+      "responsibilities": [
+        "Built the trading, market data and account management screens.",
+        "Managed global application state with Redux Toolkit across trading and wallet modules."
+      ]
+    },
+    "xWallet": {
+      "name": "X-Wallet",
+      "region": "Turkey",
+      "role": "Back-End Developer",
+      "period": "04/2022 – 10/2022",
+      "teamSize": "4 members",
+      "description": "A cryptocurrency wallet management system integrated with the Ultorex exchange, handling wallet creation, address generation, deposits and withdrawals across multiple blockchains.",
+      "responsibilities": [
+        "Developed wallet APIs — deposit, withdrawal, wallet and address creation — across 7 blockchains (ETH, BTC, BSC, Polygon, Doge, Terra, Chiliz).",
+        "Integrated blockchain nodes via Web3 to submit and track on-chain transactions.",
+        "Modelled and persisted wallet, address and transaction data with TypeORM.",
+        "Maintained and extended existing wallet functionality."
+      ]
+    },
+    "xWalletAdmin": {
+      "name": "X-Wallet Admin",
+      "region": "Turkey",
+      "role": "Developer",
+      "period": "09/2021 – 11/2022",
+      "teamSize": "1 member (sole developer)",
+      "description": "A site allowing Ultorex exchange users to manage their asset coins, built on the BitGo UI and feature set as reference.",
+      "responsibilities": [
+        "Built the entire application single-handedly, from project setup to delivery, using BitGo as the UI reference.",
+        "Integrated the X-Wallet API for balances, deposits, withdrawals and address management.",
+        "Connected RESTful APIs for data retrieval and submission. Identified and resolved defects to improve performance and stability."
+      ]
+    }
+  },
+  "codingSkills": {
+    "formHandling": {
+      "title": "Form handling",
+      "summary": "React Hook Form with Zod schema factories, reusable controlled fields and server-side errors mapped back onto the inputs.",
+      "highlights": [
+        "Schema factories receive t(), so validation messages follow the active language.",
+        "Fields such as InputField wrap useController, so screens never use Controller directly.",
+        "One useFormField hook wires the label id, aria-invalid and aria-describedby.",
+        "Validates on the first submit, then on change, so typing is never interrupted.",
+        "Mutation hooks invalidate the list query on success.",
+        "API field errors are mapped back onto the inputs with applyServerFieldErrors."
+      ],
+      "steps": [
+        "The form",
+        "Validation schema",
+        "Reusable field",
+        "Field binding and a11y",
+        "Submit mutation",
+        "Server errors to fields"
+      ]
+    },
+    "projectStructure": {
+      "title": "Project structure & architecture rules",
+      "summary": "A layered, feature-based structure whose import rules are enforced by ESLint, not left to convention.",
+      "highlights": [
+        "Five layers: router → modules → shared → core → _widgets. Imports only flow downwards.",
+        "eslint-plugin-boundaries fails the build when a layer imports upwards.",
+        "A custom ESLint rule keeps folders equal to the React render tree.",
+        "Role suffixes such as -section, -card and -dialog are enforced by lint.",
+        "No barrel files, no API folders inside modules, specs live under src/test.",
+        "Form fields wrap React Hook Form's useController, imported through @ui/form.",
+        "CI runs format, contract check, typecheck, lint, tests, build and bundle budget."
+      ],
+      "steps": ["Folder structure"]
+    },
+    "dataLayer": {
+      "title": "Data layer: API → service → query → converter",
+      "summary": "A one-way data flow where each step has a single job: typed HTTP call, business mapping, cache keys and view model.",
+      "highlights": [
+        "core/apis holds one typed Axios call per endpoint, nothing else.",
+        "Services unwrap responses and map UI parameters to the wire format.",
+        "queryOptions factories own the cache keys; a mutation invalidates one root key.",
+        "Converters run in select: the cache keeps the DTO, screens derive view models.",
+        "The abort signal reaches Axios, so leaving a screen cancels its requests."
+      ],
+      "steps": ["The page", "Query factory", "Service", "Typed API call", "Converter to view model"]
+    },
+    "globalTypes": {
+      "title": "Global utility types",
+      "summary": "One ambient globals.type.d.ts declares the helper types every file uses, with no imports needed.",
+      "highlights": [
+        "tsconfig includes globals.type.d.ts, so its types are available everywhere without an import.",
+        "The file has no imports or exports, which keeps it a global script.",
+        "Nullable<T> for fields the API sends as null, such as avatarUrl.",
+        "Maybe<T> for optional values, Nillable<T> when null and undefined are both possible.",
+        "ID accepts string or number keys, so the same DTO fits any backend.",
+        "ValueOption is the one option shape for select, combobox, radio and multi-select."
+      ],
+      "steps": ["The global types", "Example DTO"]
+    },
+    "routing": {
+      "title": "Routing, lazy pages & prefetch loaders",
+      "summary": "A data router with one route file per module, lazy-loaded pages and loaders that prefetch the first query in parallel with the page code.",
+      "highlights": [
+        "Every page is a lazy named export, so each module ships as its own chunk.",
+        "Loaders check access, then prefetch with the exact query options the page uses.",
+        "Loaders never block navigation or throw; the page query owns loading and errors.",
+        "Breadcrumbs are declared on the route with typed translation keys."
+      ],
+      "steps": [
+        "Route tree",
+        "Module route file",
+        "Lazy page",
+        "Module loader",
+        "Prefetch loader factory"
+      ]
+    },
+    "designSystem": {
+      "title": "Design system on shadcn/ui + CVA",
+      "summary": "Primitives ported from shadcn/ui into the project, one part per file, styled only with design tokens and typed variants.",
+      "highlights": [
+        "CVA variants are typed and exposed as constants, never passed as raw strings.",
+        "Classes use only design tokens (bg-primary, h-button), never raw colors or sizes.",
+        "React 19 style: ref is a prop, no forwardRef, the React Compiler memoizes.",
+        "Radix accessibility is kept: focus rings, aria attributes and screen-reader labels."
+      ],
+      "steps": ["Component", "CVA variants", "Variant constants", "Compound part"]
+    },
+    "designTokens": {
+      "title": "Design tokens & theming in CSS",
+      "summary": "Every color, size and shadow is a named token defined once in CSS. Components use the token name, so a rebrand or dark mode is a change of values, not of components.",
+      "highlights": [
+        "Components never use raw values such as #5a7d36 or bg-green-700. They use a role: bg-primary, text-muted-foreground, border-error-border.",
+        "Each token has one value in :root and one in .dark. Dark mode only swaps the values, so components need no dark: classes.",
+        "@theme inline turns each CSS variable into Tailwind classes (bg-*, text-*, border-*), with autocompletion and opacity modifiers such as bg-primary/90.",
+        "Status colors come in sets of three (background, text, border), so every badge and alert looks the same.",
+        "Sizes from the design are tokens too: h-input, h-button, rounded-card, shadow-card. The radius scale is derived from a single --radius.",
+        "Base styles and custom utilities (scrollbar-thin) live in the same file, so the whole visual language is in one place."
+      ],
+      "steps": [
+        "Token values for light and dark",
+        "Tokens to Tailwind classes",
+        "Base styles and utilities",
+        "Using tokens in a component"
+      ]
+    }
+  },
+  "tree": {
+    "src": "Imports only flow downwards through these layers",
+    "widgets": "Design system: shadcn/ui primitives owned by the project",
+    "widgetsUi": "One folder per primitive, one part per file",
+    "cvaVariants": "CVA variants",
+    "variantConstants": "Variant names as constants",
+    "formFields": "Fields wrapped in React Hook Form's useController, imported through @ui/form",
+    "cn": "cn() class merging",
+    "uiEntrypoint": "The @ui entrypoint",
+    "core": "App-wide infrastructure, never imports a feature",
+    "apis": "One typed Axios call per endpoint",
+    "contract": "Zod schemas generated from the backend OpenAPI",
+    "interceptor": "Token refresh, response contract, error mapping",
+    "guards": "ProtectedRoute, GuestRoute, PermissionRoute",
+    "constants": "Permissions, roles, route paths and access",
+    "store": "Zustand: tokens and session state",
+    "types": "DTOs inferred from the contract",
+    "shared": "Presentational components, layouts and hooks",
+    "modules": "One folder per feature",
+    "userManagement": "The folder tree mirrors the React render tree",
+    "page": "The page, alone at the module root",
+    "renderedByToolbar": "Rendered by the toolbar",
+    "tableBody": "Rows and badges nested inside",
+    "dialogsHost": "Hosts every dialog of the page",
+    "theForm": "The form",
+    "converters": "DTO to view model, form values to payload",
+    "mutations": "Mutations",
+    "queries": "queryOptions factories and cache keys",
+    "schema": "Form and URL search schemas",
+    "services": "Business steps over core/apis",
+    "router": "Route tree composed from one file per module",
+    "routes": "Guarded, lazy routes per module",
+    "loaders": "Prefetch loaders",
+    "locale": "en / vi JSON per namespace",
+    "test": "Specs mirror the source tree",
+    "inputField": "Input bound to the form with useController",
+    "multiSelectField": "Multi-select bound to the form with useController",
+    "formFieldShell": "Label, description and error message around each field",
+    "useFormField": "Wraps useController: value, error state and aria ids"
+  }
+}

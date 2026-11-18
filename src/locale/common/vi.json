@@ -1,0 +1,19 @@
+{
+  "actions": {
+    "retry": "Thử lại",
+    "close": "Đóng"
+  },
+  "theme": {
+    "label": "Giao diện",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Theo hệ thống"
+  },
+  "language": {
+    "label": "Ngôn ngữ"
+  },
+  "queryState": {
+    "errorTitle": "Không thể tải dữ liệu",
+    "errorDescription": "Kiểm tra kết nối mạng và thử lại."
+  }
+}
